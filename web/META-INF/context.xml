@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/PRJ301_3W">
+    <Resource name="DS" auth="Container" type="javax.sql.DataSource"
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+              url="jdbc:sqlserver://localhost:1433;databaseName=FlowerManagement"
+              username="sa" password="abc@123"/>
+   <CookieProcessor sameSiteCookies="strict" />
+</Context>
